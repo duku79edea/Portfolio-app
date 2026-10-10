@@ -1,0 +1,54 @@
+/*Styles for the Navbar component*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px;
+  padding: 15px;
+  background: var(--bg-color);
+  /*border-bottom: 1px solid rgba(59, 130, 246, 0.2);*/
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.25rem;
+  font-weight: 900;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+} 
+.brand strong {
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  background-clip: text;
+  color: transparent;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-links a {
+  color: var(--muted-color);
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+.nav-links a:hover,
+.nav-links a:focus-visible {
+  color: var(--primary-color);
+}
+

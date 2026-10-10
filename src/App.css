@@ -1,0 +1,22 @@
+
+:root {
+  --bg-color: #050B18;
+  --surface-color: #0F172A;
+  --primary-color: #38BDF8;
+  --secondary-color: #A855F7;
+  --text-color: #F8FAFC;
+  --muted-color: #94A3B8;
+  --other-color: hsl(222, 82%, 60%);;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
