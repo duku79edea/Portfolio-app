@@ -1,6 +1,6 @@
 .hero {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     width: 100%;
     padding: 2% 5%; 
 }
@@ -90,3 +90,12 @@
     height: 100%;
     object-fit: cover;
 } */
+.social-links{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+.social-links img{
+    width: 40px;
+    height: 40px;
+}

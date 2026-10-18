@@ -1,0 +1,39 @@
+
+.about-me{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    padding: 2%;
+    gap: 200px;
+    background: linear-gradient( 135deg, #0f172a, #1d4ed8, #7c3aed );
+    border-radius: 15px;
+    box-shadow: 0 12px 35px rgba(30, 64, 175, 0.25);
+}
+.about-me h3 {
+    font-size: 2rem;
+}
+.about-me p {
+    width: 800px;
+    font-weight: 900;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.about {
+    line-height: 1.8;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+.pic {
+    width: 100%;
+    max-width: 400px;
+    justify-self: center;
+}
+.image-pic {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 20px;
+}
