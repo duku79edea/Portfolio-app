@@ -1,8 +1,9 @@
 import '../styles/Hero.css';
 import GithubIcon from '../assets/github.png';
 import LinkedinIcon from '../assets/linkedin.png';
-import gameIcon from '../assets/game.png';
+import gameIcon from '../assets/discord.png';
 import instagramIcon from '../assets/instagram.png';
+import twitterIcon from '../assets/twitter.png'
 
 export default function Hero() {
   return (
@@ -41,10 +42,16 @@ export default function Hero() {
                       alt="GitHub Profile"
                   />
               </a>
-              <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://discord.com/channels/" target="_blank" rel="noopener noreferrer">
                   <img
                       src={gameIcon}
                       alt="GitHub Profile"
+                  />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                  <img
+                      src={twitterIcon}
+                      alt="twitter Profile"
                   />
               </a>
           </div>
